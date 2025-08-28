@@ -20,12 +20,33 @@
 
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">  
+        <link rel="stylesheet" href="css/emailsent.css">    
     </head>
     
     <body id="top">
-        <main>
+<div class="chat-btn" id="chatBtn">💬</div>
 
+<div class="chat-modal" id="chatModal">
+  <div class="chat-header">
+    Biz bilan bog‘laning
+    <button class="close-btn" id="closeModalBtn">✕</button>
+  </div>
+  <div class="chat-body">
+    <input type="text" id="name" placeholder="Ismingiz" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="tel" id="phone" placeholder="+998901234567" required maxlength="13">
+    <textarea id="message" placeholder="Xabaringizni yozing..." required></textarea>
+  </div>
+  <div class="chat-footer">
+    <button class="send-btn" id="sendBtn">Yuborish</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"><span class="icon">ℹ️</span><span id="toastMsg">Xabar yuborildi!</span></div>
+
+<!-- EmailJS SDK -->
+        <main>
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
@@ -183,7 +204,7 @@
                     <div class="row">
 
                         <div class="col-12 text-center">
-                            <h2 class="mb-4">Browse Topics</h1>
+                            <h2 class="mb-4">Browse Topics</h2>
                         </div>
 
                     </div>
@@ -768,11 +789,13 @@
 
 
         <!-- JAVASCRIPT FILES -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/script.js"></script>
 
     </body>
 </html>
