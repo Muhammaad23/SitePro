@@ -31,8 +31,8 @@ sendBtn.addEventListener('click', () => {
     showToast("Iltimos, barcha maydonlarni to‘ldiring!", "error");
     return;
   }
-  if (!/^\998\d{9}$/.test(phone)) {
-    showToast("Telefon raqami +998 bilan boshlanishi kerak!", "error");
+  if (!/^[0-9]{12}$/.test(phone)) {
+    alert("Telefon raqami faqat raqamlardan iborat bo‘lishi va 12 ta raqam bo‘lishi kerak!");
     return;
   }
   sendBtn.disabled = true;

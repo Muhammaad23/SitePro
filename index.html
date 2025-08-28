@@ -35,7 +35,7 @@
   <div class="chat-body">
     <input type="text" id="name" placeholder="Ismingiz" required>
     <input type="email" id="email" placeholder="Email" required>
-    <input type="tel" id="phone" placeholder="+998901234567" required maxlength="13">
+    <input type="tel" id="phone" placeholder="+99890 123 ## ##" maxlength="12" oninput="this.value=this.value.replace(/[^0-9]/g,'');" required>
     <textarea id="message" placeholder="Xabaringizni yozing..." required></textarea>
   </div>
   <div class="chat-footer">
