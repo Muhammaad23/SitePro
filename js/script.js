@@ -31,7 +31,7 @@ sendBtn.addEventListener('click', () => {
     showToast("Iltimos, barcha maydonlarni to‘ldiring!", "error");
     return;
   }
-  if (!/^\+998\d{9}$/.test(phone)) {
+  if (!/^\998\d{9}$/.test(phone)) {
     showToast("Telefon raqami +998 bilan boshlanishi kerak!", "error");
     return;
   }
