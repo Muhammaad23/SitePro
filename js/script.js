@@ -1,6 +1,6 @@
-const EMAILJS_PUBLIC_KEY = "E5Tnv4Jlzh5lXJz4j"; // Public Key
-const EMAILJS_SERVICE_ID = "service_g4j028u";  // Service ID
-const EMAILJS_TEMPLATE_ID = "template_xvou3rr"; // Template ID
+const EMAILJS_PUBLIC_KEY = "hiJ7NvJUJ70yVtwMc"; // Public Key
+const EMAILJS_SERVICE_ID = "service_j1crmvm";  // Service ID
+const EMAILJS_TEMPLATE_ID = "template_kfeie5s"; // Template ID
 
 emailjs.init(EMAILJS_PUBLIC_KEY);
 
