@@ -12,6 +12,7 @@ const toastMsg = document.getElementById('toastMsg');
 const closeBtn = document.getElementById('closeModalBtn');
 
 
+
 // Chatni ochish/yopish tugmasi
 chatBtn.addEventListener('click', () => {
   chatModal.style.display = (chatModal.style.display === 'flex') ? 'none' : 'flex';
