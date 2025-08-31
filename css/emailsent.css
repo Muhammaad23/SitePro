@@ -8,7 +8,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #0278b4;
+  background-color: #ffc800;
   color: white;
   width: 60px;
   height: 60px;
@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 34px;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   z-index: 999;
@@ -37,7 +37,7 @@ body {
 }
 
 .chat-header {
-  background: #0278b4;
+  background: #ffc800 ;
   color: white;
   padding: 12px;
   display: flex;
@@ -81,7 +81,7 @@ body {
 }
 
 .send-btn {
-  background: #0278b4;
+  background: #ffc800 ;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -89,6 +89,10 @@ body {
   border-radius: 8px;
   cursor: pointer;
   width: 100%;
+}
+
+.send-btn:hover{
+  background: #daac04;
 }
 
 /* Toast (Bootstrap style) */
