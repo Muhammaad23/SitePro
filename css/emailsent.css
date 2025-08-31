@@ -129,4 +129,15 @@ body {
   border-left-color: #dc3545;
 }
 
+.icon{
+  display: flex;
+  align-items: center;
+}
+
+.icon a{
+  font-size: 25px;
+  margin-left: 10px;
+  color: #0278b4;
+}
+
 @media (max-width: 500px) { .chat-modal { width: 92%; bottom: 100px; right: 4%; } }
