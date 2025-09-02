@@ -15,7 +15,11 @@ const translations = {
         when:"When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.",
         chat:"Contact us",
         name:"your name",
-        send:"send"
+        send:"send",
+        finance:"Finance",
+        topic:"Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.",
+        learn:"Learn More",
+        share:"Share:"
     },
     uz: {
         home: "Bosh sahifa",
@@ -33,7 +37,11 @@ const translations = {
         when:"Bepul CSS shablonlarini qidirsangiz, TemplateMo eng yaxshi veb-saytlardan biri ekanligini sezasiz.",
         chat:"Biz bilan bog‘laning",
         name:"ismingiz",
-        send:"yuborish"
+        send:"yuborish",
+        finance:"moliya",
+        topic:"Mavzular ro'yxati shabloniga bosh sahifa, ro'yxat sahifasi, batafsil sahifa va aloqa sahifasi kiradi. Siz o'zingizning CMS talablaringizni o'zgartirishingiz va moslashingiz mumkin.",
+        learn:"Batafsil ma'lumot",
+        share:"baham ko'ring"
     },
     ru: {
         home: "Главная",
@@ -51,7 +59,11 @@ const translations = {
         when:"При поиске бесплатных шаблонов CSS вы заметите, что TemplateMo — один из лучших сайтов.",
         chat:"Связаться с нами",
         name:"Ваше имя",
-        send:"отправлять"
+        send:"отправлять",
+        finance:"финансы",
+        topic:"Шаблон списка тем включает в себя домашнюю страницу, страницу со списком, страницу с подробной информацией и страницу контактов. Вы можете свободно редактировать и адаптировать его под требования вашей CMS.",
+        learn:"Узнать больше",
+        share:"делиться"
     }
 };
 
