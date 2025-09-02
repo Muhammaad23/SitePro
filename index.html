@@ -27,18 +27,18 @@
     <body id="top">
     <div class="chat-btn" id="chatBtn"><i class="bi bi-chat-dots"></i></div>
 <div class="chat-modal" id="chatModal">
-  <div class="chat-header">
+  <div class="chat-header" data-lang="chat">
     Biz bilan bog‘laning
     <button class="close-btn" id="closeModalBtn">✕</button>
   </div>
   <div class="chat-body">
     <input type="text" id="name" placeholder="Ismingiz" required>
-    <input type="email" id="email" placeholder="Email@" required>
-    <input type="tel" id="phone" placeholder="📞+99890 123 ## ##" maxlength="12" oninput="this.value=this.value.replace(/[^0-9]/g,'');" required>
+    <input type="email" id="email" placeholder="you@example.com" required>
+    <input type="tel" id="phone" placeholder="📞+998(90) 123 ## ##" maxlength="12" oninput="this.value=this.value.replace(/[^0-9]/g,'');" required>
     <textarea id="message" placeholder="Xabaringizni yozing..." required></textarea>
   </div>
   <div class="chat-footer">
-    <button class="send-btn" id="sendBtn">Yuborish <i class="bi bi-arrow-up"></i></button>
+    <button class="send-btn" id="sendBtn"  data-lang="send">Yuborish <i class="bi bi-arrow-up"></i></button>
   </div>
 </div>
 
@@ -52,7 +52,6 @@
                         <i class="bi-back"></i>
                         <span>Site<i style="color: #0278b4;">Pro</i></span>
                     </a>
-
                     <div class="d-lg-none ms-auto me-4">
                         <a href="login.html" class="navbar-icon bi-person smoothscroll"></a>
                     </div>
@@ -64,34 +63,29 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5 me-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                <a class="nav-link click-scroll" href="#section_1" data-lang="home">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">Browse Topics</a>
+                                <a class="nav-link click-scroll" href="#section_2" data-lang="browse">Browse Topics</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                                <a class="nav-link click-scroll" href="#section_3" data-lang="how">How it works</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                                <a class="nav-link click-scroll" href="#section_4" data-lang="faqs">FAQs</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                <a class="nav-link click-scroll" href="#section_5" data-lang="contact">Contact</a>
                             </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-
-                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
-
-                                    <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
-                                </ul>
-                            </li>
+                            <select id="languageSelect" class="form-select" style="width:70px; height: 38px; margin-top: 10px;">
+                                <option value="en">Eng</option>
+                                <option value="uz">Uzb</option>
+                                <option value="ru">Рус</option>
+                            </select>                  
                         </ul>
 
                         <div class="d-none d-lg-block">
@@ -107,9 +101,9 @@
                     <div class="row">
 
                         <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
+                            <h1 class="text-white text-center" data-lang="discover">Discover. Learn. Enjoy</h1>
 
-                            <h6 class="text-center">platform for creatives around the world</h6>
+                            <h6 class="text-center" data-lang="platform">platform for creatives around the world</h6>
 
                             <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
                                 <div class="input-group input-group-lg">
@@ -119,7 +113,7 @@
 
                                     <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Design, Code, Marketing, Finance ..." aria-label="Search">
 
-                                    <button type="submit" class="form-control">Search</button>
+                                    <button type="submit" class="form-control" data-lang="search">Search</button>
                                 </div>
                             </form>
                         </div>
@@ -138,9 +132,9 @@
                                 <a href="topics-detail.html">
                                     <div class="d-flex">
                                         <div>
-                                            <h5 class="mb-2">Web Design</h5>
+                                            <h5 class="mb-2" data-lang="web">Web Design</h5>
 
-                                            <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                                            <p class="mb-0" data-lang="when">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
                                         </div>
 
                                         <span class="badge bg-design rounded-pill ms-auto">14</span>
@@ -235,7 +229,7 @@
                     </div>
                 </div>
 
-                <div class="container">
+                <section class="container">
                     <div class="row">
 
                         <div class="col-12">
@@ -801,6 +795,6 @@
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
         <script src="js/script.js"></script>
-
+        <script src="js/translate.js"></script>
     </body>
 </html>

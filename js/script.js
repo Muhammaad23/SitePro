@@ -49,7 +49,7 @@ sendBtn.addEventListener('click', () => {
     clearForm();
   }).catch((error) => {
     console.error("Xato:", error);
-    showToast("Xabar yuborishda xatolik yuz berdi!", "error");
+    showToast("Xabar yuborishda xatolik yuz berdi! ⚠️", "error");
   }).finally(() => {
     sendBtn.disabled = false;
     sendBtn.innerText = "Yuborish";
