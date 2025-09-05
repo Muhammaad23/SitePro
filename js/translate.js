@@ -25,7 +25,7 @@ const translations = {
         home: "Bosh sahifa",
         browse: "Mavzularni ko'rish",
         how: "Qanday ishlaydi",
-        faqs: "Savol-Javob",
+        faqs: "Savol Javob",
         contact: "Aloqa",
         pages: "Sahifalar",
         topics: "Mavzular ro'yxati",

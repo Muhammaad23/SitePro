@@ -22,7 +22,28 @@ body {
   z-index: 999;
 }
 
-/* Modal */
+.chat-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(2px 2px at 10% 90%, #fff, transparent),
+              radial-gradient(2px 2px at 30% 100%, #fff, transparent),
+              radial-gradient(2px 2px at 70% 95%, #fff, transparent),
+              radial-gradient(2px 2px at 50% 110%, #fff, transparent),
+              radial-gradient(2px 2px at 90% 105%, #fff, transparent);
+  animation: starsUp 3s linear infinite;
+}
+
+@keyframes starsUp {
+  0% {
+    background-position: 0 0, 0 0, 0 0, 0 0, 0 0;
+  }
+  100% {
+    background-position: 0 -60px, 0 -60px, 0 -60px, 0 -60px, 0 -60px;
+  }
+}
+
+
 .chat-modal {
   display: none;
   position: fixed;
@@ -174,6 +195,7 @@ body {
   background-color: #000000; /* Dropdown fon */
   color: #fff; /* Matn oq */
 }
+
 
 
 @media (max-width: 500px) { .chat-modal { width: 92%; bottom: 100px; right: 4%; } }
