@@ -74,8 +74,8 @@ h6 {
 }
 
 h1 {
-  font-size: var(--h1-font-size);
-  font-weight: var(--font-weight-bold);
+  font-size: 45px;
+  /* font-weight: var(--font-weight-bold); */
 }
 
 h2 {
