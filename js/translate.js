@@ -16,7 +16,7 @@ const translations = {
         name:"ismingiz",
         send:"yuborish",
         finance:"moliya",
-        topic:"Mavzular ro'yxati shabloniga bosh sahifa, ro'yxat sahifasi, batafsil sahifa va aloqa sahifasi kiradi. Siz o'zingizning CMS talablaringizni o'zgartirishingiz va moslashingiz mumkin.",
+        topic:"Biznesingizni ijtimoiy tarmoqlarda professional tarzda tanitib, mijozlar oqimini ko‘paytirib undan tashqari savdo hajmini  oshirish bizning asosiy maqsadimizdir.",
         learn:"Batafsil ma'lumot",
         share:"baham ko'ring"
     },
@@ -37,7 +37,7 @@ const translations = {
         name:"your name",
         send:"send",
         finance:"Finance",
-        topic:"Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.",
+        topic:"Our main goal is to professionally promote your business on social media, increase customer traffic, and ultimately increase sales.",
         learn:"Learn More",
         share:"Share:"
     },
@@ -58,7 +58,7 @@ const translations = {
         name:"Ваше имя",
         send:"отправлять",
         finance:"финансы",
-        topic:"Шаблон списка тем включает в себя домашнюю страницу, страницу со списком, страницу с подробной информацией и страницу контактов. Вы можете свободно редактировать и адаптировать его под требования вашей CMS.",
+        topic:"Наша главная цель — профессиональное продвижение вашего бизнеса в социальных сетях, увеличение трафика клиентов и в конечном итоге рост продаж.",
         learn:"Узнать больше",
         share:"делиться"
     }
